@@ -5,16 +5,24 @@ Usando alguns dados do github do Hikoyu Suzuki:
 
 https://github.com/Hikoyu/SARS-CoV-2/tree/master/genome  .
 
+Você vai precisar do Scilab. Se não tem é só baixar gratuitamente em https://www.scilab.org/ .
 
+O arquivo de dados e o sample_list devem ficar no mesmo diretório do ComparaGenomas.sce.
+
+Após instalar, basta chamar por M = ComparaGenomas('dados hikoyu.txt') na linha de comando do Scilab. M vai ser a matriz de correlação. Você pode fazer uma visualização dela com os comandos surf(M); colorbar() .
+
+
+
+artigo
 
 Representação e Visualização de dados de genoma COVID-19
 
     Publicado em 19 de março de 2020
-    artigo LinkedIn Gabriel de Andrade Silva
+    LinkedIn Gabriel de Andrade Silva
 
-Há algum tempo atrás, num momento em que o hype da Bioinformática e Data Mining estava se começando, me propus a tentar implementar um algoritmo de visualização de genoma.
+Em 2012, num momento em que o hype da Bioinformática e Data Mining estava se começando, me propus a tentar implementar um algoritmo de visualização de genoma.
 
-Era um trabalho de graduação. Analisamos os genomas mais simples possíveis: os de vírus. Demorou até descobrirmos como baixar uns poucos dados do NCBI. Eram arquivos de alguns kb. Nos sugeriram comparar genomas de HIVs. Tínhamos o HIV tipo 1, o tipo 2, o SIV e o SHIV.
+Era um trabalho de graduação (disciplina BCC - "Bases Computacionais da Ciência"). Analisamos os genomas mais simples possíveis: os de vírus. Demorou até descobrirmos como baixar uns poucos dados do NCBI. Eram arquivos de alguns kb. Nos sugeriram comparar genomas de HIVs. Tínhamos o HIV tipo 1, o tipo 2, o SIV e o SHIV.
 
 Foi maravilhoso ver que a representação convergia com os que já se sabia sobre estes vírus. As figuras do tipo 1 e do SHIV ficaram muito próximas, confirmando seu parentesco.
 
