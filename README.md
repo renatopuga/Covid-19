@@ -43,7 +43,7 @@ Não foi fornecido texto alternativo para esta imagem
 
 Apesar do alto grau de semelhança ainda assim é possível discernir algumas famílias de amostras mais próximas, como podemos ver pelos picos do histograma a seguir.
 
-imagem [HISTOGRAMA]
+imagem [DISTRIBUIÇÃO CORRELAÇÕES]
 
 Fiquei feliz de ver que meu parcos conhecimentos em Bioinformática ainda parecem apontar alguma direção.
 
