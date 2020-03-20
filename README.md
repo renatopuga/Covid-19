@@ -27,17 +27,22 @@ Era um trabalho de graduação (disciplina BCC - "Bases Computacionais da Ciênc
 Foi maravilhoso ver que a representação convergia com os que já se sabia sobre estes vírus. As figuras do tipo 1 e do SHIV ficaram muito próximas, confirmando seu parentesco.
 
 2020: pandemia daqui, aulas suspensas, home office dali, me lembro desse trabalho. Encontro o código, jogado em algum canto, esquecido. Insiro dados do SARS-Cov-2. E não saem belas figuras?
-a imagem mostra muitas linhas retorcidas, cada uma de uma cor, representando os genomas de diferentes cepas do coronavirus
 
-Dados do github do Hikoyu Suzuki: https://github.com/Hikoyu .
+imagem [COMPARAÇÃO 18-03-2020]
+
+a imagem mostra muitas linhas retorcidas, cada uma de uma cor, representando os genomas de diferentes cepas do coronavirus
 
 Certamente daria para comentar muita coisa desta representação, porque ele incluiu cepas de vírus originários de animais também. Possivelmente estas curvas que saem mais fora correspondem a essas linhagens não-humanas.
 
 Mas minha curiosidade se voltou para outro ponto. Decidi ir um pouco além , implementando alguma métrica numérica de comparação. Por que não correlacionar?
+
+imagem [MATRIZ DE CORRELAÇÃO]
+
 Não foi fornecido texto alternativo para esta imagem
 
 Apesar do alto grau de semelhança ainda assim é possível discernir algumas famílias de amostras mais próximas, como podemos ver pelos picos do histograma a seguir.
-Não foi fornecido texto alternativo para esta imagem
+
+imagem [HISTOGRAMA]
 
 Fiquei feliz de ver que meu parcos conhecimentos em Bioinformática ainda parecem apontar alguma direção.
 
