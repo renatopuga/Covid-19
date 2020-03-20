@@ -12,7 +12,8 @@ O arquivo de dados e o sample_list devem ficar no mesmo diretório do ComparaGen
 Após instalar, basta chamar por M = ComparaGenomas('dados hikoyu.txt') na linha de comando do Scilab. M vai ser a matriz de correlação. Você pode fazer uma visualização dela com os comandos surf(M); colorbar() .
 
 
-
+#############################
+#############################
 artigo
 
 Representação e Visualização de dados de genoma COVID-19
