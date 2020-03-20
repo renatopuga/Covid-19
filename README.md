@@ -20,6 +20,7 @@ Representação e Visualização de dados de genoma COVID-19
 
     Publicado em 19 de março de 2020
     LinkedIn Gabriel de Andrade Silva
+    https://www.linkedin.com/pulse/representa%25C3%25A7%25C3%25A3o-e-visualiza%25C3%25A7%25C3%25A3o-de-dados-covid-19-de-andrade-silva/?trackingId=S%2FM0spcPQRSz869oMtubUQ%3D%3D
 
 Em 2012, num momento em que o hype da Bioinformática e Data Mining estava se começando, me propus a tentar implementar um algoritmo de visualização de genoma.
 
