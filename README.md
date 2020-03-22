@@ -1,22 +1,31 @@
 # Covid-19
-Data-science x Covid-19: análise de genomas
+> forked from gariandi/Covid-19
 
+Data-science x Covid-19: análise de genomas
 Usando alguns dados do github do Hikoyu Suzuki:
 
-https://github.com/Hikoyu/SARS-CoV-2/tree/master/genome  .
+* https://github.com/Hikoyu/SARS-CoV-2/tree/master/genome
 
 Você vai precisar do Scilab. Se não tem é só baixar gratuitamente em https://www.scilab.org/ .
-
 O arquivo de dados e o sample_list devem ficar no mesmo diretório do ComparaGenomas.sce.
 
-Após instalar, basta chamar por M = ComparaGenomas('dados hikoyu.txt') na linha de comando do Scilab. M vai ser a matriz de correlação. Você pode fazer uma visualização dela com os comandos surf(M); colorbar() .
+Após instalar, basta chamar na linha de comando do Scilab:
 
+```bash
+M = ComparaGenomas('dados hikoyu.txt')
+````
 
-#############################
-#############################
-artigo
+O `M` vai ser a matriz de correlação. 
+Você pode fazer uma visualização dela com os comandos:
 
-Representação e Visualização de dados de genoma COVID-19
+```bash
+surf(M); 
+colorbar()
+```
+
+### Artigo
+
+Representação e Visualização de dados de genoma COVID-19:
 
     Publicado em 19 de março de 2020
     LinkedIn Gabriel de Andrade Silva
@@ -30,21 +39,23 @@ Foi maravilhoso ver que a representação convergia com os que já se sabia sobr
 
 2020: pandemia daqui, aulas suspensas, home office dali, me lembro desse trabalho. Encontro o código, jogado em algum canto, esquecido. Insiro dados do SARS-Cov-2. E não saem belas figuras?
 
-imagem [COMPARAÇÃO 18-03-2020]
 
-a imagem mostra muitas linhas retorcidas, cada uma de uma cor, representando os genomas de diferentes cepas do coronavirus
+![comparacao-18-03-2020](images/comparacao-18-03-2020.gif)
+
+A comparação mostra muitas linhas retorcidas, cada uma de uma cor, representando os genomas de diferentes cepas do coronavirus
 
 Certamente daria para comentar muita coisa desta representação, porque ele incluiu cepas de vírus originários de animais também. Possivelmente estas curvas que saem mais fora correspondem a essas linhagens não-humanas.
 
 Mas minha curiosidade se voltou para outro ponto. Decidi ir um pouco além , implementando alguma métrica numérica de comparação. Por que não correlacionar?
 
-imagem [MATRIZ DE CORRELAÇÃO]
+![matriz-de-correlacao](images/matriz-de-correlacao.gif)
 
 Não foi fornecido texto alternativo para esta imagem
 
 Apesar do alto grau de semelhança ainda assim é possível discernir algumas famílias de amostras mais próximas, como podemos ver pelos picos do histograma a seguir.
 
 imagem [DISTRIBUIÇÃO CORRELAÇÕES]
+![matriz-de-correlacao](images/distribuicao-correlacoes-covid-18-03-2020.png)
 
 Fiquei feliz de ver que meu parcos conhecimentos em Bioinformática ainda parecem apontar alguma direção.
 
