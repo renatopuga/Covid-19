@@ -12,7 +12,7 @@ O arquivo de dados e o sample_list devem ficar no mesmo diretório do ComparaGen
 Após instalar, basta chamar na linha de comando do Scilab:
 
 ```bash
-M = ComparaGenomas('dados hikoyu.txt')
+M = ComparaGenomas('dados-hikoyu.txt')
 ````
 
 O `M` vai ser a matriz de correlação. 
